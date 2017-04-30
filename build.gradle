@@ -1,0 +1,40 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.2.RELEASE")
+    }
+}
+
+group 'com.rimbakusumo.personal'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'org.springframework.boot'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-web:1.5.3.RELEASE"
+    compile "org.webjars:jquery:3.2.0"
+    compile "org.webjars:bootstrap:3.3.7-1"
+    compile "org.webjars.bower:bootstrap-additions:0.3.1"
+    compile "org.webjars:font-awesome:4.7.0"
+    compile "org.webjars:angularjs:1.6.2"
+    compile "org.webjars.bower:angular-ui-router:1.0.0-rc.1"
+    compile "org.webjars.bower:angular-sanitize:1.6.4"
+    compile "org.webjars.bower:angular-motion:0.4.4"
+    compile "org.webjars.bower:angular-strap:2.3.10"
+    compile "org.webjars.bower:angular-animate:1.6.4"
+    compile "org.projectlombok:lombok:1.16.16"
+    testCompile "org.mockito:mockito-core:2.+"
+    testCompile "org.assertj:assertj-core:3.6.2"
+    testCompile "junit:junit:4.12"
+    testCompile "org.springframework:spring-test:4.3.7.RELEASE"
+}
