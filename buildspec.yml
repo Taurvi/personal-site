@@ -1,4 +1,4 @@
-version: 0.1
+version: 1.0
 
 phases:
   install:
@@ -16,4 +16,4 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - build/libs/personal-1.0-SNAPSHOT.jar
+    - target/personal-1.0-SNAPSHOT.jar
