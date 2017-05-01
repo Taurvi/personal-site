@@ -26,7 +26,7 @@ dependencies {
     compile "org.webjars:bootstrap:3.3.7-1"
     compile "org.webjars.bower:bootstrap-additions:0.3.1"
     compile "org.webjars:font-awesome:4.7.0"
-    compile "org.webjars:angularjs:1.6.2"
+    compile "org.webjars.bower:angular:1.6.4"
     compile "org.webjars.bower:angular-ui-router:1.0.0-rc.1"
     compile "org.webjars.bower:angular-sanitize:1.6.4"
     compile "org.webjars.bower:angular-motion:0.4.4"

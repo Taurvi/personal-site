@@ -95,3 +95,13 @@ body {
 .collapse.am-collapse.in-add {
     animation-name: expand;
 }
+
+/* Creates the fade effect between page transitions */
+main.ng-enter {
+    transition: 1s;
+    opacity: 0;
+}
+
+main.ng-enter-active {
+    opacity: 1;
+}
